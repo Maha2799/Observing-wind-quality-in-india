@@ -16,11 +16,11 @@ from sklearn import linear_model
 import os
 print(os.listdir("../input"))
 from sklearn.linear_model import LogisticRegression
-from sklearn import tree
+from sklearn.ensemble import RandomForestClassifier
 from sklearn import svm
 from sklearn.neighbors import KNeighborsClassifier
+from sklearn.ensemble import GradientBoostingClassifier
 
-from sklearn.naive_bayes import GaussianNB
 ['data.csv']
 data=pd.read_csv('../input/data.csv',encoding = "ISO-8859-1")
 data.head()
